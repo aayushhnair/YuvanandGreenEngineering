@@ -23,11 +23,11 @@ function App() {
               </div>
               <nav className="hidden md:block">
                 <ul className="flex space-x-6">
-                  <li><Link to="/" className="text-white hover:text-green-200 transition duration-300">Home</Link></li>
-                  <li><Link to="/about" className="text-white hover:text-green-200 transition duration-300">Objectives</Link></li>
-                  <li><Link to="/faculty" className="text-white hover:text-green-200 transition duration-300">Directors</Link></li>
-                  <li><Link to="/research" className="text-white hover:text-green-200 transition duration-300">Office</Link></li>
-                  <li><Link to="/contact" className="text-white hover:text-green-200 transition duration-300">Join Us</Link></li>
+                  <li><Link to="YuvanandGreenEngineering/" className="text-white hover:text-green-200 transition duration-300">Home</Link></li>
+                  <li><Link to="YuvanandGreenEngineering/about" className="text-white hover:text-green-200 transition duration-300">Objectives</Link></li>
+                  <li><Link to="YuvanandGreenEngineering/faculty" className="text-white hover:text-green-200 transition duration-300">Directors</Link></li>
+                  <li><Link to="YuvanandGreenEngineering/research" className="text-white hover:text-green-200 transition duration-300">Office</Link></li>
+                  <li><Link to="YuvanandGreenEngineering/contact" className="text-white hover:text-green-200 transition duration-300">Join Us</Link></li>
                 </ul>
               </nav>
               <div className="hidden md:block">
@@ -44,11 +44,11 @@ function App() {
           {isMenuOpen && (
             <div className="md:hidden bg-green-800">
               <ul className="flex flex-col space-y-2 p-4">
-                <li><Link to="/" className="text-white hover:text-green-200 transition duration-300 block py-2">Home</Link></li>
-                <li><Link to="/about" className="text-white hover:text-green-200 transition duration-300 block py-2">Objectives</Link></li>
-                <li><Link to="/faculty" className="text-white hover:text-green-200 transition duration-300 block py-2">Directors</Link></li>
-                <li><Link to="/research" className="text-white hover:text-green-200 transition duration-300 block py-2">Office</Link></li>
-                <li><Link to="/contact" className="text-white hover:text-green-200 transition duration-300 block py-2">Join Us</Link></li>
+                <li><Link to="YuvanandGreenEngineering/" className="text-white hover:text-green-200 transition duration-300 block py-2">Home</Link></li>
+                <li><Link to="YuvanandGreenEngineering/about" className="text-white hover:text-green-200 transition duration-300 block py-2">Objectives</Link></li>
+                <li><Link to="YuvanandGreenEngineering/faculty" className="text-white hover:text-green-200 transition duration-300 block py-2">Directors</Link></li>
+                <li><Link to="YuvanandGreenEngineering/research" className="text-white hover:text-green-200 transition duration-300 block py-2">Office</Link></li>
+                <li><Link to="YuvanandGreenEngineering/contact" className="text-white hover:text-green-200 transition duration-300 block py-2">Join Us</Link></li>
                 <li>
                   <a href="tel:+919994787526" className="text-white hover:text-green-200 transition duration-300 flex items-center py-2">
                     <Phone className="inline-block mr-2" size={18} />
